@@ -1,0 +1,126 @@
+4장 UI 조작과 디버깅!!!
+
+
+=================== JSTL ================
+java 언어이다.
+<c:forTokens>
+구분자로 한 번 써보기
+
+=========================================
+javascript:SCOPE  (버전임)
+
+
+
+
+5 버전 jQuery 가 핵심, Ajax (SI)
+ex) var a =1;
+promise (솔루션 , 6부터)
+Async-await (service 쪽)
+
+
+8 버전 핵심 (7부터)
+Node 기반에서 VUE가 돌아감
+ex ) let a = 1;
+
+
+
+유효범위가 함수 내에서는 범위 밖에서 var는 함수가 다 돌아감
+똑같은 변수 선언하면 안됨
+
+반대로 유효범위가 함수 내에서는let 함수는 
+해당 범위 밖에서는 에러가 남.
+
+
+함수명은 길고 디테일하게 적어주자
+
+
+전역변수는 모든 곳에서 사용 가능
+
+
+이름이 중복되면 가까운 걸 참조한다. (지역변수 값 참조)
+
+
+cf) var가 생략되면 전역 변수가 됨
+
+
+
+* 호이스팅은 변수만 올려주지 값은 올리지 않기에 
+
+Uncaught Reference Error  
+: a is not defined   이렇게 안나오고
+
+정의를 안했다고 나온다  ( undefined )
+
+
+
+=========================================
+// 함수 선언문
+hoistingExam();  
+function hoistingExam(){  
+    var hoisting_val =10;
+    console.log("hoisting_val ="+hoisting_val);
+}
+//실행결과
+/*
+hoisting_val =10 
+함수도 호이스팅해서 위로 올려준다. (객체이기 때문에)
+*/
+
+//함수 표현식  ( 인자를 주거나 콜백 리턴으로 쓸거면 이렇게)
+hoistingExam2();  
+var hoistingExam2 = function(){  
+    var hoisting_val =10;
+    console.log("hoisting_val ="+hoisting_val);
+}
+//실행결과
+/*
+hoistingExam2 of object is not a function 
+호이스팅 해주지만 값을 올리지 않기 때문이다.
+*/
+
+
+=========================================
+jQuery   (  https://ggoreb.tistory.com/172   )
+에디터블 테이블 javascript로 예제 만들어 보기
+
+
+
+
+
+
+=========================================
+크롬 단축키
+Ctrl + N ( 새 창 열기 )
+Ctrl + Shift + T ( 최근 10개 까지 띄울 수 있음 )
+윈도우키 + 방향키 ( 화면 분할일 때 옮겨짐)
+Ctrl + Shift + c ( 버튼이나 이벤트 css 위치 찾을 때 )
+
+
+[ https://www.slideshare.net/netil/ss-28588952 ]
+
+개발자 도구(F12) 랑 workspace가 연결 시키기
+개발자 도구는 network탭을 잘 봐라
+개발자 도구 디버그 중 비동기 통신 디버그 하기를 할 수 있음
+Console API 
+
+
+
+Ctrl + Shift + B (내가 원하는 위치까지 디버그)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========================================

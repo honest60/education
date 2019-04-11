@@ -1,0 +1,20 @@
+*STS Hot Key
+링크 ( Alt + Shift + R )
+리펙터 ( Alt + Shift + T )
+마지막 편집 ( Ctrl + Q )
+동일 범위 블록 ( Shift + Alt + 방향키 ) 
+총 파일에서 문자 검색 ( Ctrl + Shift + L )
+파일 검색 ( Ctrl + Shift + R ) 
+자동완성기능 ( Ctrl + Space )
+퀵 픽스 ( Ctrl + 1 )
+블록 주석 ( Ctrl + Shift + / )
+import 추가, 정리 ( Ctrl + Shift + O ) 
+복사 이동 ( Ctrl + Alt + 방향키 )
+잘라서 이동 ( Alt + 방향키 )
+
+
+*sql 짤 때 좋을 것
+대문자 변경 ( Ctrl + Shift + X )
+소문자 변경 ( Ctrl + Shift + Y )
+
+코드 자동 정렬 ( Ctrl + Shift + F ) 

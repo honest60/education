@@ -1,0 +1,36 @@
+*Maven
+웹에 있는 인터넷 라이브러리 저장소이다.
+(빌드를 해주는 도구=> pox.xml 에서 요구)
+gradle이 pom 보다 한층 업그레이드 된 녀석이다.
+(yml????)로 설정하는게 spring boot다
+Yml Ain't markup language
+aKey : aval
+
+
+*Mybatis 
+밑줄 다음엔 무조건 대문자로 해야
+<setting name="mapUnderscoreToCamelCase" value="true" />
+옵션을 사용할 수 있다.
+
+
+ctr+shift+L => 빠른 검색
+<이클립스에선 퀵 서치를 다운받으면 됨>
+
+
+hotkey 많이 씀
+alt+ shift  + 방향키 
+alt + shift + R  링크	( 동시에 변수나 메소드 바꿀때 사용) 
+ctr+ 방향키 (빠른 이동)
+ctrl + shift + R ( 파일 검색 ) 
+
+문제가 생기면 FIXME로 주석을 남겨서 수정해야된다 체크
+project를 만들면 TODO 주석을 작성하고 시작한다.
+
+show view에서 tasks 들어가면 보기 쉽다.
+(이니셜, 날짜, 내용순으로 적기)
+
+해결이 되면 주석 제거
+
+ctrl + shift + f : 블락을 해서 내 코드만 정렬할 것
+alt + shift + T : 리펙터 메뉴 표시
+ctrl + q : 마지막 편집 위치 이동
